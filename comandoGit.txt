@@ -10,7 +10,7 @@ $ git config --global user.email "gab.arnaldo@gmail.com"
 
 git commit
 
-"dentro del archivo abierto poner mi primer commit y luego escape y :qw"
+"dentro del archivo abierto poner mi primer commit y luego escape y :wq"
 
   git log 
   
@@ -20,5 +20,8 @@ git commit
     $ git checkout -- index.html     --Para hacer cambios-
 
     git diff index.html   --Comparar Archivos-
+
+    $ git commit -m "He agrado un gitinore"  --Hacer commit
+
 
 
