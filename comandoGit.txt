@@ -4,3 +4,21 @@ git status  (ver estado de archivos)
 git add style.css
 
 $ git config --global user.email "gab.arnaldo@gmail.com"
+
+ git config --global user.name "Gabriel"
+
+
+git commit
+
+"dentro del archivo abierto poner mi primer commit y luego escape y :qw"
+
+  git log 
+  
+    git status
+    working tree clean  "noy hay cambios"
+
+    $ git checkout -- index.html     --Para hacer cambios-
+
+    git diff index.html   --Comparar Archivos-
+
+
