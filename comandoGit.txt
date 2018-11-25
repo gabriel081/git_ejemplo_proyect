@@ -1,0 +1,6 @@
+git init
+git status  (ver estado de archivos)
+
+git add style.css
+
+$ git config --global user.email "gab.arnaldo@gmail.com"
