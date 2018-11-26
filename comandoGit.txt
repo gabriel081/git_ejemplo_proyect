@@ -1,27 +1,46 @@
-git init
-git status  (ver estado de archivos)
 
-git add style.css
+--Iniciamos el proyecto en la carpeta determinada 
+$git init
 
-$ git config --global user.email "gab.arnaldo@gmail.com"
+--Ver estado de los archivos
+$git status  (ver estado de archivos)
 
- git config --global user.name "Gabriel"
+--Agregar un archivo 
+$git add style.css   
 
+--Configurar mi correo
+$ git config --global user.email "gab.arnaldo@gmail.com"    
 
-git commit
+--Configurar con mi nombre de usuario
+$git config --global user.name "Gabriel"
 
-"dentro del archivo abierto poner mi primer commit y luego escape y :wq"
+--Hacer un commit dentro del archivo abierto poner mi primer commit y luego escape y :wq"
+$git commit
 
-  git log 
-  
-    git status
-    working tree clean  "noy hay cambios"
+--Ver cambios
+$git log 
 
-    $ git checkout -- index.html     --Para hacer cambios-
+--Ver estado working tree clean  "noy hay cambios"
+$git status
 
-    git diff index.html   --Comparar Archivos-
+--Deshacer cambios
+$ git checkout -- index.html     
 
-    $ git commit -m "He agrado un gitinore"  --Hacer commit
+--Comparar Archivos
+$git diff index.html   
+
+--Hacer commit desde una sola linea
+$ git commit -m "He agrado un gitinore"  
+
+--Verion alternativa
+$ git branch login  
+
+--cambiar de master a login
+$git checkout login  
+
+--git agrego todos los archivos de una sola vez
+git add .   
+
 
 
 
